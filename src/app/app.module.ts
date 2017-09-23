@@ -11,13 +11,14 @@ import {AppRoutingModule} from './app-routing/app-routing.module';
 import {HttpModule} from '@angular/http';
 import {InMemoryDataService} from './InMemoryDataService';
 import {InMemoryWebApiModule} from 'angular-in-memory-web-api';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
     DashboardComponent,
     HeroDetailComponent,
-    HeroesComponent
+    HeroesComponent,
+    HeroSearchComponent
   ],
   imports: [
     AppRoutingModule,
