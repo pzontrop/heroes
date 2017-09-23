@@ -15,6 +15,7 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 @NgModule({
   declarations: [
+    AppComponent,
     DashboardComponent,
     HeroDetailComponent,
     HeroesComponent,
